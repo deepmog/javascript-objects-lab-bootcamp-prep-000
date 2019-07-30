@@ -18,5 +18,6 @@ var kitten = Object.assign({}, object);
 
 function destructivelyDeleteFromObjectByKey(object, key) {
   delete object.key;
+  return object;
 }
 
